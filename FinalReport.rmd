@@ -75,9 +75,19 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+This table shows that 59% women who contracted Aids got the vaccine. 41% did not get the vaccine. 
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Three test were ran and the results were that all the P value were so low to reject the NULL hypothesis. 
 
 
 # Discussion and Conclusion
