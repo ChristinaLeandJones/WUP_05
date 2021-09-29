@@ -36,9 +36,11 @@ WomanData=filter(triUmp,gender=="F")
 head(WomanData)
 ```
 
-This are the results for all the Female in our 
+This are the results for all the Female in our data WomenData.
 
 ## Descriptive Results
+
+
 
 ### Graphical Descriptive Results
 
@@ -67,7 +69,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
 
-The boxplot shows that out of the women who got aids had taken the vaccine before contracting aids 
+The boxplot shows that out of the women who got aids had taken the vaccine before contracting aids. 
 
 ### Numerical Descriptive Results
 
@@ -79,7 +81,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-This table shows that 59% women who contracted Aids got the vaccine. 41% did not get the vaccine. 
+This table shows that 59% women who contracted Aids got the vaccine. 41% did not get the vaccine and contracted Aids. 
 
 ## Inferential Results
 
@@ -99,3 +101,5 @@ Three test were ran and the results were that all the P value were so low to rej
 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The results show that the odds ratio of contracting Aids after getting vaccine is 1.543902 : 1. The results conclude that there is no effectiveness to the vaccine. Women contracted Aids whether they were vaccinated or not. Women actually contracted Aids more with the vaccine because the confidence interval for the odds ratio is entirely above 1. The conclusion is that the vaccine should be taken because it does not work it actually increases the chances of them getting Aids.   
